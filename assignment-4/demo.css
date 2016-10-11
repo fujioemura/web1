@@ -1,0 +1,52 @@
+@import 'https://fonts.googleapis.com/css?family=Bitter|Fjalla+One|PT+Serif';
+
+body {
+    background-color: #A3C8FF;
+}
+
+.large {
+    color:#ffffff;
+    font-size: 100px;
+    font-family: 'Bitter', serif;
+    text-align:center;
+}
+
+.large:hover{
+    color: Pink;
+    transition: color .5s ease;
+}
+
+h2{
+     color:#ffffff;
+    font-family: 'Bitter', serif;
+    min-width: 800px;
+    border: 1px dashed #ffffff;
+    text-align:center;
+    line-height: 2em;
+    text-decoration: underline;
+    
+    
+}
+
+p{
+         color:#ffffff;
+    font-family: 'Bitter', serif;
+    text-align:center;
+}
+
+a {
+    color: #FFC926;
+    font-size:40px;
+    text-decoration:none;
+    border: 1px solid ;
+    padding: 10px 20px;
+    border-radius:10px;
+    text-transform: uppercase;
+    margin: 0 12px;
+    transition: border-color 0.5s ease;
+}
+
+a:hover {
+    border-color: #ffffff;
+    
+}
