@@ -175,7 +175,17 @@ a.nav-link:hover {
 
 .coffee-quote {
     font-size: 30px;
-    color: #16445f;
+    padding: 20px;
+    margin: 20px 15px;
+    border-left: 5px solid #D69E00;
+    
+}
+
+cite {
+    display: block;
+    color: #666;
+    font-size: 16px;
+    
 }
 
 .menu{
