@@ -160,7 +160,6 @@ a.nav-link:hover {
 }
 
 .assignment-list{
-    border: 4px solid #ddd;
     padding: 20px;
     margin: 20px auto;
     width: 860px;
@@ -203,7 +202,6 @@ dd {
 .card {
     background-color: #fff;
     box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
-    border:1px solid #ddd;
     width: calc(33.3% - 20px);
     min-height: 310px;
     margin: 10px;
