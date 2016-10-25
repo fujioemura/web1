@@ -168,10 +168,24 @@ a.nav-link:hover {
     
 }
 
-.assignment-list{
-    padding: 20px;
-    margin: 20px auto;
-    width: 860px;
+.assignment-list dt {
+    margin-top: 20px;
+    
+}
+
+.assignment-list a {
+    color: #3c8bce;
+    font-size: 18px;
+                        
+}
+
+.assignment-list a:hover {
+    color: #115690;
+    
+}
+
+.assignment-list dd {
+    margin-left: 0;
 }
 
 .coffee-quote {
@@ -215,7 +229,7 @@ cite {
 }
 
 .menu .label {
-    text-align: right;
+    text-align: left;
     
 }
 
@@ -308,7 +322,8 @@ button {
 }
 
 #home .hero {
-    
+    background-image: url('images/ocean.jpg');
+     /*photo by NASA https://hd.unsplash.com/photo-1451186859696-371d9477be93 */
 }
 
 #about .hero {
@@ -317,13 +332,7 @@ button {
 }
 
 #cofee .hero {
-    background-color: #e0bb4a;
-    padding: 200px 200px 200px 200px;
-    background-image:url("coffee.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-attachment: fixed;
+    background-image: url('images/coffee.jpg');
     /*Photo from Jakub Kapusnak https://foodiesfeed.com/flatwhite-coffee-closeup-berlin*/
     
 }
