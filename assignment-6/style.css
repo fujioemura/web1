@@ -177,18 +177,15 @@ a.nav-link:hover {
 
 .assignment-list dt {
     margin-top: 20px;
-    
 }
 
 .assignment-list a {
     color: #3c8bce;
     font-size: 18px;
-                        
 }
 
 .assignment-list a:hover {
     color: #115690;
-    
 }
 
 .assignment-list dd {
