@@ -1,0 +1,11 @@
+.body {
+    font-family: sans-serif;
+}
+
+.nav-link {
+    color: red;
+    margin: 20px auto ;
+    width: 20%;
+    display: inline-block;
+}
+ 
