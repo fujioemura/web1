@@ -14,7 +14,7 @@ body {
     display:inline-block;
     text-align:right;
     width: 800px;
-    margin-left:800px;
+    margin-left:700px;
     margin-top:30px;
 }
 
@@ -39,17 +39,56 @@ body {
 
 h2 {
     display: inline-block;
+    font-family: Letter Gothic Std ;
+    font-style: italic;
+    font-size: 80px;
+    /*background-color:yellow;*/
 }
 
 h3 {
     display: inline-block;
+    font-family: Letter Gothic Std ;
+    font-size: 50px;
+    border-bottom: 5px solid black;
+    border-radius:2px;
+    /*background-color:green;*/
 }
 
 .first {
-    margin-left:300px;
+    margin-left:0;
+    /*background-color:red;*/
 }
 
 
 .first-text {
+    width: 400px;
+    font-size:20px;
+    margin-left:225px;
+    /*background-color:blue;*/
+}
+
+.cameraselection {
+    text-align: center;
+}
+
+.film {
+    display: inline-block;
     width: 300px;
+    height: 300px;
+}
+
+.digital {
+    display: inline-block;
+    width:300px;
+    height: 320px;
+    
+}
+
+.second-text {
+    font-family: Muli ;
+}
+
+#beforeimage{
+    width: 100%;
+    height: 500px;
 }
