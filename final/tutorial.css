@@ -32,3 +32,24 @@ body {
 .navbutton:hover {
     color: blue ;
 }
+
+
+
+/* Main Content */
+
+h2 {
+    display: inline-block;
+}
+
+h3 {
+    display: inline-block;
+}
+
+.first {
+    margin-left:300px;
+}
+
+
+.first-text {
+    width: 300px;
+}
