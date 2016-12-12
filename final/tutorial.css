@@ -55,8 +55,7 @@ h3 {
 }
 
 .first {
-    margin-left:0;
-    /*background-color:red;*/
+    margin-top:300px;
 }
 
 
@@ -68,20 +67,23 @@ h3 {
 }
 
 .cameraselection {
-    text-align: center;
+   margin-left:800px;
+   margin:400px;
 }
 
 .film {
     display: inline-block;
     width: 300px;
     height: 300px;
+    padding:50px;
 }
 
 .digital {
     display: inline-block;
     width:300px;
     height: 320px;
-    
+    padding: 50px;
+
 }
 
 .second-text {
@@ -93,4 +95,34 @@ h3 {
     width: 1000px;
     height: 600px;
     margin-left:700px;
+}
+
+.second {
+    background-image:url('images/whileshooting.jpg');
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width:500px;
+    text-align: center;
+}
+
+.afterimage {
+    display:inline-block;
+    width: 1000px;
+    height: 600px;
+}
+
+.third {
+    background-color: white;
+}
+
+.third-text{
+    background-color:red;
+    width: 500px;
+    height: auto;
+}
+
+.third-image {
+    width:500px;
+    height: auto;
 }
