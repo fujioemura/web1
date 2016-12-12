@@ -16,7 +16,6 @@ html {
 
 
 
-
 .logo {
     text-align: left;
     display:inline-block;
@@ -30,10 +29,9 @@ html {
     width: 800px;
     margin-left:800px;
     margin-top:30px;
+    padding-bottom: 50px;
+    padding-top: 0px;
 }
-
-
-
 
 .navbutton {
     text-decoration: none;
@@ -69,4 +67,5 @@ h2 {
 
 .start-button:hover {
     color: blue;
+    
 }
