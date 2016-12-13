@@ -33,6 +33,9 @@ body {
     color: blue ;
 }
 
+.tutorial {
+    text-decoration:underline;
+}
 
 
 /* Main Content */
@@ -56,6 +59,7 @@ h3 {
 
 .first {
     margin-top:300px;
+    margin-left:50px;
 }
 
 
@@ -78,6 +82,10 @@ h3 {
     padding:50px;
 }
 
+.digital:hover {
+    border:2px solid blue;
+}
+
 .digital {
     display: inline-block;
     width:300px;
@@ -86,8 +94,15 @@ h3 {
 
 }
 
+.film:hover {
+    border:2px solid blue;
+}
+
 .second-text {
     font-family: Muli ;
+    width:400px;
+    padding-left:600px;
+    text-align:left;
 }
 
 .beforeimage {
@@ -102,8 +117,10 @@ h3 {
     background-repeat:no-repeat;
     background-position: center center;
     background-size: cover;
-    width:500px;
     text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    height: 1000px;
 }
 
 .afterimage {
@@ -113,16 +130,27 @@ h3 {
 }
 
 .third {
-    background-color: white;
+    margin-top: 300px;
+    text-align: top right;
 }
 
 .third-text{
-    background-color:red;
     width: 500px;
     height: auto;
+    text-align:left;
 }
 
 .third-image {
     width:500px;
     height: auto;
+}
+
+.column {
+    display:inline-block;
+}
+
+.to-gallery {
+    text-align:center;
+    font-size:50px;
+    margin:200px;
 }
